@@ -1,0 +1,419 @@
+@media screen and (max-width: 810px) {
+    .logo {
+        display: none;
+    }
+    
+    .dot-separator-header {
+        display: none;
+    }
+
+    .header-adress {
+        display: none;
+    }
+
+    .facebook-logo {
+        display: none;
+    }
+
+    .language {
+        color: #B3B3BA;
+    }
+
+    .header-number {
+        color: #B3B3BA;
+    }
+
+    .header-contacts {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section-header {
+        padding-top: 20px;
+    }
+    
+    .container {
+        padding: 0 20px;
+    }
+
+    .header-bottom {
+        display: flex;
+    }
+
+    .logo-mini {
+        display: block;
+    }
+
+    .header-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 9px 0;
+        position: relative;
+      }
+
+    .menu-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .header-navigation {
+        display: none;
+    }
+
+    .container.header {
+        display: block;
+    }
+    
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: var(--clr-white);
+        z-index: 100;
+      }
+      
+      .mobile-nav-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 16px 0;
+      }
+      
+      .mobile-nav-close {
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        cursor: pointer;
+      }
+      
+      .mobile-nav-list {
+        margin: 0;
+        padding: 0;
+        background-color: var(--clr-bg);
+      }
+      
+      .mobile-nav-item {
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: solid 1px var(--clr-white);
+        font-size: 24px;
+        line-height: 28px;
+      }
+
+
+        .header-main {
+        padding-top: 100px;
+        background-image: url(../images/Symbol-Long-leg.svg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 65px;
+        background-size: cover;
+    }
+
+    .header-name {
+        margin-bottom: 63px;
+    }
+
+    .section-main-content {
+        display: none;
+    }
+
+    .section-main-content-mobile {
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+
+    .section-main-content-menu {
+        width: 100%;
+    }
+
+    .section-main-content-menu-list {
+        display: none;
+    }
+
+    .section-main-content-menu-heading {
+        margin-top: 10px;
+    }
+
+    .section-main-link.active {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(180deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+   
+    }
+
+    .section-main-content-menu-list + .section-main-content-menu {
+        margin-left: 0px;
+    }
+
+    .section-main-content {
+        justify-content: left;
+    }
+
+    .section-main-content-menu-heading {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+
+    .section-main-content-menu-text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .section-services {
+        margin-bottom: 20px;
+    }
+
+    .section-services-text {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .section-services-content {
+        flex-direction: column;
+    }
+    
+    .section-services-content-materials {
+        width: 100%;
+        margin-right: 0px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .section-services-content-materials-img {
+        height: 64px;
+        width: 64px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .section-services-content-materials-img.image1 {
+        background-image: url(../images/Icon1-mini.svg);
+    }
+    
+    .section-services-content-materials-img.image2 {
+        background-image: url(../images/Icon2-mini.svg);
+    }
+    
+    .section-services-content-materials-img.image3 {
+        background-image: url(../images/Icon3-mini.svg);
+    }
+    
+    .section-services-content-materials-img.image4 {
+        background-image: url(../images/Icon4-mini.svg);
+    }
+    
+    .section-services-content-materials-img.image5 {
+        background-image: url(../images/Icon5-mini.svg);
+    }
+    
+    .section-services-content-materials-img.image6 {
+        background-image: url(../images/Icon6-mini.svg);
+    }
+
+    .section-services-content-materials-heading {
+        width: calc(100% - 74px);
+    }
+    
+    .section-services-content-materials-heading-content {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .section-services-content-materials-heading-content {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .section-services-content-materials-text {
+        margin-bottom: 40px;
+    }
+
+    .section-shadow {
+        display: none;
+    }
+
+    .section-shadow-mini {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .section-team-card {
+        margin: 20px 20px 61px 20px;
+    }
+
+    .section-team-card-photo-large {
+        display: none;
+    }
+    
+    .section-team-card-description {
+        align-items: center;
+    }
+
+    .section-team-card-info {
+
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .section-team-card-info-heading-text {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .section-team-card-photo-small {
+        display: flex;
+        width: 64px;
+        height: 64px;
+        margin-right: 10px;
+    }
+
+    .section-cases {
+        margin: 30px 20px;
+
+    }
+
+    .section-cases-tab.first {
+        width: 100%;
+        padding-bottom: 0px;
+        padding-left: 0;
+        padding-right: 0px;
+    }
+    
+    .section-cases-tab-heading {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .section-cases-tab.second {
+        width: 100%;
+    }
+    
+    .section-cases-tab.third {
+        width: 100%;
+    }
+    
+    .section-cases-tab.fourth {
+        width: 100%;
+    }
+    
+    .section-cases-tab.fifth {
+        width: 100%;
+    }
+    
+    .section-cases-tab.sixth {
+        width: 100%;
+    }
+
+    .section-publications {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .section-publications-heading {
+        font-size: 32px;
+        line-height: 38px;   
+        margin-bottom: 20px;   
+    }
+
+    .overflow-container {
+        height: 730px;
+        margin-bottom: 40px;
+    }
+
+    .overflow-container-gradient {
+        display: none;
+    }
+
+    .overflow-container-gradient-mobile {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .overflow-container-gradient-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .overflow-container-gradient-button-text {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        width: 250px;
+        color: #FFFFFF;
+        background: #24A3FF;
+        box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+        border-radius: 12px;
+        border: none; 
+    }  
+
+    .footer-content {
+        flex-direction: column;
+        padding-bottom: 118px;
+    }
+
+    .footer-information-adress {
+        flex-direction: column;
+    }    
+
+    .footer-information-contacts {
+        flex-direction: column;
+    }
+
+    .dot-separator-footer {
+        display: none;
+    }
+.footer-information-adress-text {
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.footer-information-adress {
+    margin-bottom: 20px;
+}
+
+.facebook-logo-footer {
+    margin-bottom: 20px; 
+    margin-right: 0px;
+
+}
+
+.footer-information-contacts-number {
+    margin-bottom: 20px; 
+    margin-right: 0px;
+
+}
+
+.footer-information-mail {
+    margin-bottom: 20px; 
+
+}
+
+.footer-information-copyright-text {
+    text-align: center;
+}
+
+}
